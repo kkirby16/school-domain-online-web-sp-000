@@ -26,5 +26,6 @@ class School
   def sort 
     @roster.map do |k, v| v.sort!
   end
+end
     
 end
