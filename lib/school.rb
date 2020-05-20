@@ -14,7 +14,6 @@ class School
       @roster[grade] = [name] 
       @roster
     elsif @roster[grade] != nil 
-    @roster[grade] = []
     @roster[grade] << name
     @roster
     end
