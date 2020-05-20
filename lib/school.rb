@@ -24,7 +24,7 @@ class School
   end
   
   def sort 
-    @roster.each do |k, v| v.sort!
+    @roster.map do |k, v| v.sort!
   end
 end
     
