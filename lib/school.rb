@@ -16,8 +16,6 @@ class School
     elsif @roster[grade] != nil 
     @roster[grade] << name
     @roster
-  end
-      
     end
   end
 end
