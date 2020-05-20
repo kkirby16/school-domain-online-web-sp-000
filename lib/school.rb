@@ -13,6 +13,9 @@ class School
     if @roster[grade] == nil 
       @roster[grade] = [name] 
       @roster 
+    elsif @roster[grade] != nil 
+    @roster[grade] << name
+      
     end
   end
 end
