@@ -18,4 +18,6 @@ class School
     @roster
     end
   end
+  
+  def grade
 end
